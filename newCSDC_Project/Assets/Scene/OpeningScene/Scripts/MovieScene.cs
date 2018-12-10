@@ -8,7 +8,7 @@ public class MovieScene : MonoBehaviour
     [SerializeField]
     private float MovieTime;        // 動画の再生時間
 
-    public AudioSource audiosource;
+ //   public AudioSource audiosource;
 
 	// Use this for initialization
 	void Start ()
@@ -16,7 +16,7 @@ public class MovieScene : MonoBehaviour
         // マウスカーソル非表示
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        audiosource = GetComponent<AudioSource>();
+//        audiosource = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -40,23 +40,17 @@ public class MovieScene : MonoBehaviour
 
         if (Input.GetButtonDown("Player2_Kettei"))
         {
-            audiosource.Stop();
-//            Fade.FadeOut(2);
-            //            SceneNavigator.Instance.Change("Priproment");
+           //  audiosource.Stop();
+
         }
 
         if (Input.GetButtonDown("Player3_Kettei"))
         {
-            audiosource.Stop();
-            Fade.FadeOut(2);
-            //            SceneNavigator.Instance.Change("Priproment");
         }
 
         if (Input.GetButtonDown("Player4_Kettei"))
         {
-            audiosource.Stop();
-            Fade.FadeOut(2);
-            //            SceneNavigator.Instance.Change("Priproment");
+            
         }
     }
 }

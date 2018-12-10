@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ScoreManager : MonoBehaviour {
+
+    // シーン切り替えても値が保持する。
     public int[] score= new int[4];
     // Use this for initialization
     void Start () {
-        score[0] = 0;
-        score[1] = 0;
-        score[2] = 0;
-        score[3] = 0;
+//        score[0] = 0;
+//        score[1] = 0;
+//        score[2] = 0;
+//        score[3] = 0;
     }
 	
 	// Update is called once per frame

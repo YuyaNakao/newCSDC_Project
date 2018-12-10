@@ -38,9 +38,11 @@ public class Player4_Score : MonoBehaviour
     [SerializeField]
     private float StartTime;                // 何秒後に開始
 
-    private int num_score;
+    [SerializeField]
+    private int P4_num_score;
 
-    private int P_score;
+    [SerializeField]
+    private float P4_score;
 
     private Vector3 py;//Y座標一時保管
     ScoreManager manager;
@@ -50,10 +52,10 @@ public class Player4_Score : MonoBehaviour
     {
         manager = GameObject.Find("Score").GetComponent<ScoreManager>();
 
-        num_score = manager.score[0] + manager.score[1] + manager.score[02] + manager.score[3];
-        P_score = manager.score[3] / num_score;
+        P4_num_score = manager.score[0] + manager.score[1] + manager.score[2] + manager.score[3];
+        P4_score = (float)manager.score[3] / (float)P4_num_score;
         // オブジェクトのスケールサイズが大きくなるので調整する
-        player_max_move = P_score * 100 / 40;
+        player_max_move = P4_score * 100 / 40;
         //        player_max_move = manager.score[0] / 40;
         // 移動量の初期値
         move_score = 0;
