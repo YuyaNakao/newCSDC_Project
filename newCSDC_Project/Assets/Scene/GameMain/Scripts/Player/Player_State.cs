@@ -24,6 +24,8 @@ public class Player_State : MonoBehaviour {
     private CharacterController m_character_controller;
     PlayerStatus playerStatus;
     MotionController motion;
+    private float timer;
+    public float timeBetweenShot;//発射間隔
 
     // Use this for initialization
     void Start () {
@@ -34,6 +36,8 @@ public class Player_State : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        // タイマーの時間を動かす
+        timer += Time.deltaTime;
         switch ( m_state ) {
             case STATE.WAIT:
                 Wait();
@@ -94,14 +98,17 @@ public class Player_State : MonoBehaviour {
        // motion.AnimaMove(1.0f, keyState.LeftStickAxis.x);
 
     }
-
+    
     //攻撃時の処理
     private void Attack()
     {
-        // 弾を作成
-        GameObject obj =Instantiate(obj_Shot,transform.position,transform.rotation)as GameObject;
-        obj.GetComponent<Shot>().playerNo = (int)playerStatus.playerNo;
-        obj.name = obj_Shot.name;
+        if (timer > timeBetweenShot)
+        {
+            timer = 0.0f;
+            GameObject obj = Instantiate(obj_Shot, transform.position, transform.rotation) as GameObject;
+            obj.GetComponent<Shot>().playerNo = (int)playerStatus.playerNo;
+            obj.name = obj_Shot.name;
+        }
         m_state = STATE.WAIT;
     }
 

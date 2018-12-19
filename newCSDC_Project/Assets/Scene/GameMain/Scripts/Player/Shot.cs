@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class Shot : MonoBehaviour {
     public float speed;
-    CharacterController con;
-    GameObject shot;
-    Vector3 aim;
     Rigidbody rid;
-    Vector3 shot_pos;
     public GameObject obj;
-    public GameObject enemy;
-    public float losttime;
     ScoreManager manager;
     public int playerNo;
     int count;
     bool enemyflag;
-    Vector3 enemypos;
 
     // Use this for initialization
     void Start () {
@@ -41,12 +34,6 @@ public class Shot : MonoBehaviour {
        if (hit.CompareTag("izimekko"))
         {
             count++;
-        }
-
-        if (hit.CompareTag("PointZone"))
-        {
-            manager.AddScore(playerNo - 1, count);
-            Destroy(obj);
         }
     }
 
