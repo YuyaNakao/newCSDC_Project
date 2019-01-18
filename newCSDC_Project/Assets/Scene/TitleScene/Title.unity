@@ -409,8 +409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b22431978d3827d42b3ad2b0ed299571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite_wait: {fileID: 21300000, guid: 804f56bc238befc4fb6198cea48f2b21, type: 3}
-  sprite_start: {fileID: 21300000, guid: 2ca95719f1e76504382207a5a4d0ce1f, type: 3}
+  sprite_wait: {fileID: 21300000, guid: 830d2716e14d3a2439b5bc29c734cccf, type: 3}
+  sprite_start: {fileID: 21300000, guid: b6d482796716e2a43b84e21e170f6f6d, type: 3}
 --- !u!82 &201282163
 AudioSource:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 804f56bc238befc4fb6198cea48f2b21, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 830d2716e14d3a2439b5bc29c734cccf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -569,7 +569,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 804f56bc238befc4fb6198cea48f2b21, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 830d2716e14d3a2439b5bc29c734cccf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -653,7 +653,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 525ec05c9b74c974ab84403461894c50, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 831e8f4cc17b3ce449758149afa0d016, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -675,8 +675,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d867daade21ae40b87d1f2a77e248d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite_wait: {fileID: 21300000, guid: 525ec05c9b74c974ab84403461894c50, type: 3}
-  sprite_start: {fileID: 21300000, guid: c12dec6df1e4ac64698c4373e907ac17, type: 3}
+  sprite_wait: {fileID: 21300000, guid: 831e8f4cc17b3ce449758149afa0d016, type: 3}
+  sprite_start: {fileID: 21300000, guid: c3f18efdc1629c34988cec750fa493a7, type: 3}
 --- !u!82 &349495540
 AudioSource:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 525ec05c9b74c974ab84403461894c50, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 831e8f4cc17b3ce449758149afa0d016, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1336,7 +1336,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4016ed13e7da8404c8709dfc4461aea9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d705b8692d71f81488efe808fb081137, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1358,8 +1358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e4d5134a9d9f24fa6ba43a9b477090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite_wait: {fileID: 21300000, guid: 4016ed13e7da8404c8709dfc4461aea9, type: 3}
-  sprite_start: {fileID: 21300000, guid: bbab496c6b7995c42b65cdf5cfbeb525, type: 3}
+  sprite_wait: {fileID: 21300000, guid: d705b8692d71f81488efe808fb081137, type: 3}
+  sprite_start: {fileID: 21300000, guid: 25e9208982ab2024e8fd4cb95a59b1b4, type: 3}
 --- !u!82 &660688460
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1482,7 +1482,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4016ed13e7da8404c8709dfc4461aea9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d705b8692d71f81488efe808fb081137, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2974,7 +2974,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d2023e88a800a8c4cb3f20fc27ed7e61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6006038ff41efc54e8bfb26f2ee8ef72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2996,8 +2996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a1d28b03470e5047aff9d26387da8a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite_wait: {fileID: 21300000, guid: d2023e88a800a8c4cb3f20fc27ed7e61, type: 3}
-  sprite_start: {fileID: 21300000, guid: dc3d22a3b61f8e944a8561b6a3485f5b, type: 3}
+  sprite_wait: {fileID: 21300000, guid: 6006038ff41efc54e8bfb26f2ee8ef72, type: 3}
+  sprite_start: {fileID: 21300000, guid: 8e92704aaeada6941ac5c6c2a2792d32, type: 3}
 --- !u!82 &1934886692
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3120,7 +3120,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d2023e88a800a8c4cb3f20fc27ed7e61, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6006038ff41efc54e8bfb26f2ee8ef72, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
