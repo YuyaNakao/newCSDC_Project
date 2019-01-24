@@ -17,6 +17,7 @@ namespace pon {
 
     public class GameSceneManager : MonoBehaviour {
 
+
         /*--- Enum ---*/
         public enum SceneState {
 
@@ -31,7 +32,10 @@ namespace pon {
         private SceneState m_scene_state = SceneState.FADE_IN;
         private pon.FadeManager m_fade_manager;
         private pon.Timer m_timer;
-        
+
+        [SerializeField]
+        private int next_number;        // 次のシーンに飛ぶ番号
+
         /// <summary>
         /// @brief  初期化処理
         /// </summary>
@@ -129,7 +133,7 @@ namespace pon {
             if( m_fade_manager.IsFade() ) {
                 
                 // リザルトシーンの読み込み
-                SceneManager.LoadScene( 0 );
+                SceneManager.LoadScene(next_number);
 
             }
 

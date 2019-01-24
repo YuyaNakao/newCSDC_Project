@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scene/GameMain/Game.unity
     guid: 22ebc1ead46628341b17a3690f819c69
   - enabled: 1
+    path: Assets/Scene/OpeningScene/NextMovie.unity
+    guid: 4a274dc7103815745a689d0567c936e3
+  - enabled: 1
+    path: Assets/Scene/GameMain/NextGame.unity
+    guid: 1b3c386fe257767499f182305fb4cedd
+  - enabled: 1
+    path: Assets/Scene/OpeningScene/ResultMovie.unity
+    guid: ebf2ebecdfedec64196cb816261a21eb
+  - enabled: 1
     path: Assets/Scene/ResultScene/Result.unity
     guid: b7be243d54ac2bb4abc284d7f00007a3
   m_configObjects: {}

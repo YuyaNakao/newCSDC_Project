@@ -8,10 +8,13 @@ public class MovieScene : MonoBehaviour
     [SerializeField]
     private float MovieTime;        // 動画の再生時間
 
- //   public AudioSource audiosource;
 
-	// Use this for initialization
-	void Start ()
+    [SerializeField]
+    private int next_number;        // 次のシーンに飛ぶ番号
+    //   public AudioSource audiosource;
+
+    // Use this for initialization
+    void Start ()
     {
         // マウスカーソル非表示
         Cursor.lockState = CursorLockMode.Locked;
@@ -29,12 +32,12 @@ public class MovieScene : MonoBehaviour
         if(MovieTime <= 0)
         {
 //            audiosource.Stop();
-            Fade.FadeOut(2);
+            Fade.FadeOut(next_number);
         }
 
         if(Input.GetButtonDown("Player1_Kettei"))
         {
-            Fade.FadeOut(2);
+            Fade.FadeOut(next_number);
 //            SceneNavigator.Instance.Change("Priproment");
         }
 
